@@ -1,0 +1,72 @@
+.add-icon-wrap {
+	position: absolute;
+	right: 20px;
+}
+.directory-title {
+	padding: 10px 0;
+	font-size: 18px;
+}
+.new-directory-wrap {
+	justify-content: center;
+	align-items: center;
+	width: 85%;
+	height: 150px;
+	background: white;
+	border-radius: 10px;
+	position: relative;
+}
+.directory-name-input {
+	width: 80%;
+	border-radius: 5px;
+	border: 1px solid #e7e7e7;
+}
+.choose-wrap {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 35px;
+	border-top: 1px solid #e7e7e7;
+}
+.choose-cell {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+}
+.choose-cell:first-child {
+	border-right: 1px solid #e7e7e7;
+}
+
+
+.tables {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+}
+.table {
+	width: 30%;
+	height: 120px;
+	border-radius: 15px;
+	margin: 10px 0;
+}
+.table-memo-total {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 85px;
+	background: #FFF2D7;
+	border-radius: 15px 15px 0 0;
+	font-size: 35px;
+}
+.tableName {
+	height: 35px;
+	background: #333949;
+	border-radius: 0 0 15px 15px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

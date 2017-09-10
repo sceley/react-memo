@@ -1,0 +1,44 @@
+.Unfolded .header {
+	display: flex;
+	justify-content: space-between;
+}
+.Unfolded .header a {
+	padding: 0 10px;
+}
+.tags-wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.maskLayer {
+	background: rgba(0,0,0,.2);
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.amemo {
+	padding: 10px;
+	margin-top: 20px;
+	border: 1px solid #e7e7e7;
+	border-radius: 5px;
+}
+.icon {
+	font-size: 18px;
+	padding-right: 5px;
+}
+.icon-list {
+	margin-top: 10px;
+}
+.remove {
+	background-color: #E51F8F;
+	padding: 3px;
+	color: white;
+	font-size: 16px;
+}
